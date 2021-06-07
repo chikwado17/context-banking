@@ -1,9 +1,12 @@
 import React from 'react';
+import BankingServices from './components/BankingServices';
+import BankingStatus from './components/BankingStatus';
 
 function App() {
   return (
     <div>
-      <p>Hwy</p>
+      <BankingStatus/>
+      <BankingServices/>
     </div>
   );
 }
